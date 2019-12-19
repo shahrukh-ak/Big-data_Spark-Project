@@ -3,7 +3,7 @@
 - Write Spark application that reads uploaded sales.txt file from HDFS cluster and finds average and standard deviation of stores’ sales in each city. <br>
 - Upload airfoil.txt file in HDFS cluster and run spark_ml_linreg.py Spark application. The application is Linear Regression implementation in Spark. The dataset used in this task is iris.names. Run the application by varying parameters like maxIter, regParam, and elasticNetParam. Mention your observation in the report. You may refer the following link:
 https://www.datacamp.com/community/tutorials/apache-spark-tutorial-machine-learning <br>
-- Upload iris.txt file in HDFS cluster and run spark_ml_lrclf.py Spark application. The application is Logistic Regression implementation in Spark. The dataset used in this task is taken from here.<br>
+- Upload iris.txt file in HDFS cluster and run spark_ml_lrclf.py Spark application. The application is Logistic Regression implementation in Spark. The dataset used in this task is taken from iris.names.<br>
 - Use the uploaded iris.txt dataset in HDFS cluster and build a Random Forest classifier model. You can use spark_ml_rfclf.py for this task. Compare your results with Logistic regression implementation.
 - Implement K-Nearest Neighbors from scratch using the skeleton code given in spark_ml_knnclf.py. The implementation is discussed using Spark dataframe and Spark SQL features and designed for iris.txt dataset only
 
